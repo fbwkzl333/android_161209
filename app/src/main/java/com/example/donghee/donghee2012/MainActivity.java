@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
                     Double result3 = null;
                     if (rdi1.isChecked()) {      // r 5%
                         result3 = (Double) result2 * 0.05;
-                        result2 = (Double) result2 - ((Double) result2 * 0.15);
+                        result2 = (Double) result2 - ((Double) result2 * 0.05);
                     } else if(rdi2.isChecked()) { //  10%
                         result3 = (Double)result2 * 0.10;
                         result2 = (Double) result2 - ((Double) result2 * 0.10);
