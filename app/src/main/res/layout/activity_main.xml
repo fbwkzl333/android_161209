@@ -59,6 +59,7 @@
                     android:text="시간 예약"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:id="@+id/textView12"
                     android:background="@color/colorAccent" />
 
@@ -137,7 +138,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView11"
-                    android:layout_weight="1"
+                    android:gravity="center"
                     android:background="@color/colorAccent" />
 
                 <LinearLayout
@@ -230,14 +231,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/radioButton2"
-                        android:layout_weight="1" />
+                         />
 
                     <RadioButton
                         android:text="MemberShip있음(20%할인)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/radioButton3"
-                        android:layout_weight="1" />
+                         />
 
     </RadioGroup>
                 </LinearLayout>
@@ -250,7 +251,7 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@mipmap/ic_launcher"
+                        app:srcCompat="@drawable/t1"
                         android:id="@+id/imageView3" />
 
                 </LinearLayout>
@@ -259,8 +260,7 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1">
+                    android:layout_height="wrap_content">
 
                     <Button
                         android:text="예약완료"
