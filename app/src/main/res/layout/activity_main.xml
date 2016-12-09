@@ -55,26 +55,21 @@
                 android:id="@+id/main2Layout">
 
 
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1">
-
-                </LinearLayout>
-
-                <Button
+                <TextView
                     android:text="시간 예약"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/button4" />
+                    android:id="@+id/textView12"
+                    android:background="@color/colorAccent" />
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
                     <RadioButton
                         android:text="일자 설정"
                         android:layout_width="wrap_content"
@@ -88,7 +83,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/radioButton5"
                         android:layout_weight="1" />
-
+</RadioGroup>
                 </LinearLayout>
 
                 <FrameLayout
@@ -110,8 +105,7 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_height="66dp"
                     android:id="@+id/tetetete">
 
                     <Button
@@ -148,9 +142,8 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:layout_weight="1">
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
                     <TextView
                     android:text="어른(15000원)"
@@ -171,7 +164,7 @@
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content">
 
                     <TextView
                         android:text="청소년(12000원)"
@@ -194,7 +187,7 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="58dp">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:text="어린이(8000원)"
@@ -262,6 +255,7 @@
 
                 </LinearLayout>
             </LinearLayout>
+
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
@@ -280,36 +274,36 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/button3" />
 
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.00">
-
-                        <TextView
-                            android:text="총 명수 :"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/View1"
-                            android:layout_weight="0.00" />
-
-                        <TextView
-                            android:text="할인금액 :"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/View2"
-                            android:layout_weight="0.00" />
-
-                        <TextView
-                            android:text="결제금액 :"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/View3"
-                            android:layout_weight="0.00" />
-                    </LinearLayout>
-
                 </LinearLayout>
-        </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="359dp">
+
+                    <TextView
+                        android:text="총 명수 :"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/View1"
+                        android:layout_weight="0.00" />
+
+                    <TextView
+                        android:text="할인금액 :"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/View2"
+                        android:layout_weight="0.00" />
+
+                    <TextView
+                        android:text="결제금액 :"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/View3"
+                        android:layout_weight="0.00" />
+                </LinearLayout>
+
+            </LinearLayout>
         </FrameLayout>
 
     </LinearLayout>
