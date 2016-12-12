@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         cal.setVisibility(View.INVISIBLE);
         timeP.setVisibility(View.INVISIBLE);
 
-        rdi4.isChecked();
+        
 
         cal.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
@@ -88,11 +88,12 @@ public class MainActivity extends AppCompatActivity {
         sw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {        // 스위치 작동
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(isChecked){
+                if(isChecked){                                        
                     chro.setBase(SystemClock.elapsedRealtime());
                     chro.start();
                     chro.setTextColor(Color.RED);
                     lay1.setVisibility(View.VISIBLE);
+                    rdi1.isChecked();
                 } else {
                     ed1.setText(null);
                     ed2.setText(null);
@@ -183,6 +184,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 lay1.setVisibility(View.INVISIBLE);
                 lay2.setVisibility(View.VISIBLE);
+                rdi4.isChecked();
             }
         });
         b5.setOnClickListener(new View.OnClickListener() {
