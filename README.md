@@ -12,7 +12,7 @@
 <img width=200 src=
 "https://github.com/fbwkzl333/android_161209/blob/master/app/pics/333.png?raw=true" >
 
-<h3> 일자,시간 설정 후 [예약완료] 클릭 </h3>
+<h3> 일자,시간 설정 후 [예약완료] 클릭. </h3>
 <img width=200 src=
 "https://github.com/fbwkzl333/android_161209/blob/master/app/pics/444.png?raw=true" >
 
